@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — East End Apartments, Mayur Vihar</title>
+<meta name="description" content="Enquire about buying, renting or selling a home at East End Apartments, Mayur Vihar Phase I. Reach the property desk, request a viewing or ask about a layout.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>document.documentElement.classList.add('js');</script>
+<noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
+</head>
+<body class="page-contact">
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header is-solid">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="East End Apartments — home">
+      <span class="brand-mark" aria-hidden="true">EE</span>
+      <span class="brand-text">
+        <span class="brand-name">East End</span>
+        <span class="brand-sub">Apartments · Mayur Vihar</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="society.html">The society</a>
+      <a href="residences.html">Residences</a>
+      <a href="layouts.html">Layouts</a>
+      <a href="amenities.html">Amenities</a>
+      <a href="location.html">Location</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn--outline header-cta" href="contact.html">Enquire</a>
+      <button class="menu-btn" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <svg class="od-icon od-icon--lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav" hidden>
+  <ul>
+    <li><a href="society.html">The society <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+    <li><a href="residences.html">Residences <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+    <li><a href="layouts.html">Layouts <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+    <li><a href="amenities.html">Amenities <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+    <li><a href="location.html">Location <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+    <li><a href="contact.html">Contact <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+  </ul>
+  <div class="mobile-contact">
+    <span>Property desk</span>
+    <a href="tel:+919810298200"><strong>+91 98102 98200</strong></a>
+    <a href="mailto:admin@eastendapartment.com">admin@eastendapartment.com</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Contact</p>
+      <h1>Let's talk about your next address.</h1>
+      <p class="lead">Buying, renting, selling or just curious about the society — send a note and the property desk will call you back. Or come and see the grounds in person.</p>
+      <div class="page-meta">
+        <span>Buying</span>
+        <span>Renting</span>
+        <span>Selling</span>
+        <span>Site visits</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container enquiry-grid">
+      <div>
+        <p class="eyebrow">Enquiry</p>
+        <h2 class="section-heading">Tell us what you are looking for.</h2>
+        <p class="lead">A short note is enough. Mention the layout, tower or budget if you already have one in mind.</p>
+
+        <div class="form-summary" id="form-summary" hidden aria-live="polite"></div>
+
+        <form class="form" id="enquiry-form" novalidate>
+          <div class="field">
+            <label for="name">Full name <span class="req">*</span></label>
+            <input id="name" name="name" type="text" autocomplete="name" aria-describedby="name-error">
+            <p class="field-error" id="name-error" hidden></p>
+          </div>
+          <div class="field">
+            <label for="phone">Mobile number <span class="req">*</span></label>
+            <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" aria-describedby="phone-error" placeholder="+91">
+            <p class="field-error" id="phone-error" hidden></p>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" aria-describedby="email-error">
+            <p class="field-error" id="email-error" hidden></p>
+          </div>
+          <div class="field">
+            <label for="interest">I am enquiring about <span class="req">*</span></label>
+            <select id="interest" name="interest" aria-describedby="interest-error">
+              <option value="">Select one</option>
+              <option value="buy">Buying a home</option>
+              <option value="rent">Renting a home</option>
+              <option value="sell">Selling or letting my flat</option>
+              <option value="general">A general question</option>
+            </select>
+            <p class="field-error" id="interest-error" hidden></p>
+          </div>
+          <div class="field field--full">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Layout, tower, budget, preferred time to visit…"></textarea>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn--primary" type="submit">Send enquiry
+              <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </button>
+            <p class="form-note">This presentation form confirms on your device only; no message is sent to a mailbox.</p>
+          </div>
+        </form>
+
+        <div class="form-success" id="enquiry-success" hidden>
+          <p class="eyebrow">Enquiry received</p>
+          <h2>Thank you — the desk will be in touch.</h2>
+          <p>We have your details. For a faster response, call or WhatsApp the property desk directly on <a href="tel:+919818337775">+91 98183 37775</a>.</p>
+          <button class="btn btn--primary" type="button" id="send-another">Send another enquiry</button>
+        </div>
+      </div>
+
+      <aside class="contact-aside">
+        <div class="info-block">
+          <span class="k">Property desk</span>
+          <p>Deepa Gupta<br><a href="tel:+919818337775">+91 98183 37775</a></p>
+          <p>Umesh Gupta, CMA<br><a href="tel:+919810298200">+91 98102 98200</a></p>
+          <a class="link-arrow" href="https://wa.me/919818337775" target="_blank" rel="noopener">WhatsApp the desk
+            <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+        <div class="info-block">
+          <span class="k">Office</span>
+          <p>2/102, East End Apartments<br>Mayur Vihar Phase I (Extn.)<br>Delhi 110096</p>
+          <a class="link-arrow" href="https://maps.google.com/?q=East+End+Apartments+Mayur+Vihar+Phase+I+Delhi" target="_blank" rel="noopener">Directions
+            <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+        <div class="info-block">
+          <span class="k">Email</span>
+          <p><a href="mailto:admin@eastendapartment.com">admin@eastendapartment.com</a></p>
+          <p>For site visits, enter from Gate 2 opposite the metro.</p>
+        </div>
+
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section--paper2">
+    <div class="container">
+      <div class="sec-head reveal">
+        <div>
+          <p class="eyebrow">Before you visit</p>
+          <h2>Three things that help.</h2>
+        </div>
+        <div class="sec-aside">
+          <p>Visits are simple once you know which gate to use and what you want to see.</p>
+        </div>
+      </div>
+      <div class="info-grid reveal">
+        <div class="info">
+          <span class="k">Entry</span>
+          <h3>Use Gate 2</h3>
+          <p>Visitors enter from Gate 2, directly opposite New Ashok Nagar metro station.</p>
+        </div>
+        <div class="info">
+          <span class="k">Office</span>
+          <h3>Meet at 2/102</h3>
+          <p>The property desk is inside the society; call ahead so someone is there to meet you.</p>
+        </div>
+        <div class="info">
+          <span class="k">Bring</span>
+          <h3>Your shortlist</h3>
+          <p>Tell the desk which layouts you want to see so the visit covers the right towers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html" aria-label="East End Apartments — home">
+          <span class="brand-mark" aria-hidden="true">EE</span>
+          <span class="brand-text">
+            <span class="brand-name">East End</span>
+            <span class="brand-sub">Apartments · Mayur Vihar</span>
+          </span>
+        </a>
+        <p>East End Apartments, Mayur Vihar Phase I (Extn.), opposite New Ashok Nagar Metro Station, Delhi 110096.</p>
+      </div>
+      <div>
+        <p class="footer-heading">Explore</p>
+        <ul class="footer-list">
+          <li><a href="society.html">The society</a></li>
+          <li><a href="residences.html">Residences</a></li>
+          <li><a href="layouts.html">Layouts</a></li>
+          <li><a href="amenities.html">Amenities</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Property desk</p>
+        <ul class="footer-list">
+          <li><a href="tel:+919818337775">Deepa Gupta · +91 98183 37775</a></li>
+          <li><a href="tel:+919810298200">Umesh Gupta · +91 98102 98200</a></li>
+          <li><a href="https://wa.me/919818337775" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li>2/102, East End Apartments</li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Visit</p>
+        <ul class="footer-list">
+          <li><a href="https://maps.google.com/?q=East+End+Apartments+Mayur+Vihar+Phase+I+Delhi" target="_blank" rel="noopener">Directions</a></li>
+          <li><a href="mailto:admin@eastendapartment.com">admin@eastendapartment.com</a></li>
+          <li><a href="tel:+919810298200">+91 98102 98200</a></li>
+          <li><a href="https://www.youtube.com/channel/UCiYw7GojMymDLBtzY43Pp6A/videos" target="_blank" rel="noopener">Society films on YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>This site is privately owned and used for commercial and social purposes. It has no legal or formal connection with the society's administration or management.</p>
+      <p>© East End Apartments</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
+

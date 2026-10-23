@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Residences — East End Apartments, Mayur Vihar</title>
+<meta name="description" content="Two and three bedroom homes for sale and on rent in East End Apartments, Mayur Vihar Phase I — 920 to 1,600 sq ft, through the society property desk.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>document.documentElement.classList.add('js');</script>
+<noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
+</head>
+<body class="page-residences">
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header is-solid">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="East End Apartments — home">
+      <span class="brand-mark" aria-hidden="true">EE</span>
+      <span class="brand-text">
+        <span class="brand-name">East End</span>
+        <span class="brand-sub">Apartments · Mayur Vihar</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="society.html">The society</a>
+      <a href="residences.html" aria-current="page">Residences</a>
+      <a href="layouts.html">Layouts</a>
+      <a href="amenities.html">Amenities</a>
+      <a href="location.html">Location</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn--outline header-cta" href="contact.html">Enquire</a>
+      <button class="menu-btn" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <svg class="od-icon od-icon--lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav" hidden>
+  <ul>
+    <li><a href="society.html">The society <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+    <li><a href="residences.html">Residences <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+    <li><a href="layouts.html">Layouts <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+    <li><a href="amenities.html">Amenities <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+    <li><a href="location.html">Location <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+    <li><a href="contact.html">Contact <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+  </ul>
+  <div class="mobile-contact">
+    <span>Property desk</span>
+    <a href="tel:+919810298200"><strong>+91 98102 98200</strong></a>
+    <a href="mailto:admin@eastendapartment.com">admin@eastendapartment.com</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Residences</p>
+      <h1>Homes for sale and on rent.</h1>
+      <p class="lead">A working shortlist of flats available through the society property desk — two and three bedroom homes from 920 to 1,600 sq ft, across the multi-storey blocks and the C-Type quarter.</p>
+      <div class="page-meta">
+        <span>920 – 1,600 sq ft</span>
+        <span>2 &amp; 3 BHK</span>
+        <span>Sale and rent</span>
+        <span>Indicative listings</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="filters">
+        <div class="filter-group" role="group" aria-label="Listing type">
+          <span class="filter-label">Show</span>
+          <button class="chip" type="button" data-mode="all" aria-pressed="true">All</button>
+          <button class="chip" type="button" data-mode="sale" aria-pressed="false">For sale</button>
+          <button class="chip" type="button" data-mode="rent" aria-pressed="false">For rent</button>
+        </div>
+        <div class="filter-group" role="group" aria-label="Bedrooms">
+          <span class="filter-label">Bedrooms</span>
+          <button class="chip" type="button" data-bhk="all" aria-pressed="true">Any</button>
+          <button class="chip" type="button" data-bhk="2" aria-pressed="false">2 BHK</button>
+          <button class="chip" type="button" data-bhk="3" aria-pressed="false">3 BHK</button>
+        </div>
+      </div>
+      <div class="results-bar">
+        <p id="listing-count" aria-live="polite"></p>
+        <p>Prepared by the property desk</p>
+      </div>
+      <div class="listings" id="listing-grid"></div>
+      <div class="empty-state" id="listing-empty" hidden>
+        <h3>No residences match these filters.</h3>
+        <p>Try a different bedroom count, or clear the filters to see every home on the desk.</p>
+        <button class="btn btn--primary" type="button" id="reset-filters">Clear filters</button>
+      </div>
+      <p class="grid-note">These are indicative listings prepared for this presentation, with tentative prices. Availability, floor area and terms must be confirmed with the property desk before any transaction.</p>
+    </div>
+  </section>
+
+  <section class="section section--paper2">
+    <div class="container">
+      <div class="sec-head reveal">
+        <div>
+          <p class="eyebrow">The grounds</p>
+          <h2>Every home shares the same address.</h2>
+        </div>
+        <div class="sec-aside">
+          <p>Whichever layout you choose, the parks, the temple, the metro gate and the boundary are shared — and so is the quiet inside the lanes.</p>
+          <a class="link-arrow" href="society.html">Inside the society
+            <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="fact-strip reveal">
+        <div class="fact"><b>21.7 acres</b><span>Parks, lanes and four gates</span></div>
+        <div class="fact"><b>2 lifts</b><span>In every multi-storey tower</span></div>
+        <div class="fact"><b>0 km</b><span>New Ashok Nagar metro, Gate 2</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container intro-grid reveal">
+      <div class="prose">
+        <p class="eyebrow">Selling or letting</p>
+        <h2 class="section-heading">Have a flat at East End?</h2>
+        <p>If you are selling or letting a home in the society, the property desk can list it here, shortlist genuine buyers and tenants, and coordinate visits and paperwork.</p>
+        <p>Share the tower, floor and layout with the desk and they will confirm the current indicative range before anything goes live.</p>
+        <a class="link-arrow" href="contact.html?interest=sell">List your residence
+          <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div class="desk">
+        <div class="desk-head">
+          <b>Deepa Gupta Properties</b>
+          <span>Property desk</span>
+        </div>
+        <div class="desk-row"><span>Deepa Gupta</span><a href="tel:+919818337775">+91 98183 37775</a></div>
+        <div class="desk-row"><span>Umesh Gupta, CMA</span><a href="tel:+919810298200">+91 98102 98200</a></div>
+        <div class="desk-row"><span>Office</span><span>2/102, East End Apartments</span></div>
+        <div class="desk-actions">
+          <a class="btn btn--primary" href="https://wa.me/919818337775" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn btn--outline" href="contact.html">Send an enquiry</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html" aria-label="East End Apartments — home">
+          <span class="brand-mark" aria-hidden="true">EE</span>
+          <span class="brand-text">
+            <span class="brand-name">East End</span>
+            <span class="brand-sub">Apartments · Mayur Vihar</span>
+          </span>
+        </a>
+        <p>East End Apartments, Mayur Vihar Phase I (Extn.), opposite New Ashok Nagar Metro Station, Delhi 110096.</p>
+      </div>
+      <div>
+        <p class="footer-heading">Explore</p>
+        <ul class="footer-list">
+          <li><a href="society.html">The society</a></li>
+          <li><a href="residences.html">Residences</a></li>
+          <li><a href="layouts.html">Layouts</a></li>
+          <li><a href="amenities.html">Amenities</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Property desk</p>
+        <ul class="footer-list">
+          <li><a href="tel:+919818337775">Deepa Gupta · +91 98183 37775</a></li>
+          <li><a href="tel:+919810298200">Umesh Gupta · +91 98102 98200</a></li>
+          <li><a href="https://wa.me/919818337775" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li>2/102, East End Apartments</li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Visit</p>
+        <ul class="footer-list">
+          <li><a href="https://maps.google.com/?q=East+End+Apartments+Mayur+Vihar+Phase+I+Delhi" target="_blank" rel="noopener">Directions</a></li>
+          <li><a href="mailto:admin@eastendapartment.com">admin@eastendapartment.com</a></li>
+          <li><a href="tel:+919810298200">+91 98102 98200</a></li>
+          <li><a href="https://www.youtube.com/channel/UCiYw7GojMymDLBtzY43Pp6A/videos" target="_blank" rel="noopener">Society films on YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>This site is privately owned and used for commercial and social purposes. It has no legal or formal connection with the society's administration or management.</p>
+      <p>© East End Apartments</p>
+    </div>
+  </div>
+</footer>
+
+<dialog class="dialog" id="listing-dialog" aria-labelledby="listing-dialog-title">
+  <button class="dialog-close" type="button" data-close-dialog aria-label="Close residence details">
+    <svg class="od-icon od-icon--md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <div class="dialog-shell">
+    <div class="dialog-media">
+      <img data-ld-img src="assets/plans/b-front.jpg" alt="B Type floor plan" width="1002" height="1048">
+    </div>
+    <div class="dialog-body">
+      <p class="eyebrow" data-ld-kicker>For sale</p>
+      <h2 id="listing-dialog-title" data-ld-name>B Type · Front</h2>
+      <p class="dialog-price" data-ld-price></p>
+      <p class="lead" data-ld-note></p>
+      <div class="spec-list" data-ld-specs></div>
+      <p class="form-note" data-ld-ref></p>
+      <div class="dialog-actions">
+        <a class="btn btn--primary" data-ld-cta href="contact.html?interest=buy">Request a viewing
+          <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn btn--outline" href="tel:+919810298200">Call the desk</a>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

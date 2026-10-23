@@ -1,0 +1,12 @@
+# System & Editor Junk
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Open Design internal files
+.file-versions/
+.od-frames/
+.od-skills/
+*.artifact.json

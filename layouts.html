@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Layouts — East End Apartments, Mayur Vihar</title>
+<meta name="description" content="The seven apartment layouts at East End Apartments: A, A-1, B front and back, B-1, C and D — 920 to 1,600 sq ft, with floor plans and tower details.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>document.documentElement.classList.add('js');</script>
+<noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
+</head>
+<body class="page-layouts">
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header is-solid">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="East End Apartments — home">
+      <span class="brand-mark" aria-hidden="true">EE</span>
+      <span class="brand-text">
+        <span class="brand-name">East End</span>
+        <span class="brand-sub">Apartments · Mayur Vihar</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="society.html">The society</a>
+      <a href="residences.html">Residences</a>
+      <a href="layouts.html" aria-current="page">Layouts</a>
+      <a href="amenities.html">Amenities</a>
+      <a href="location.html">Location</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn--outline header-cta" href="contact.html">Enquire</a>
+      <button class="menu-btn" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <svg class="od-icon od-icon--lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav" hidden>
+  <ul>
+    <li><a href="society.html">The society <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+    <li><a href="residences.html">Residences <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+    <li><a href="layouts.html">Layouts <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+    <li><a href="amenities.html">Amenities <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+    <li><a href="location.html">Location <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+    <li><a href="contact.html">Contact <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+  </ul>
+  <div class="mobile-contact">
+    <span>Property desk</span>
+    <a href="tel:+919810298200"><strong>+91 98102 98200</strong></a>
+    <a href="mailto:admin@eastendapartment.com">admin@eastendapartment.com</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Layouts</p>
+      <h1>Seven layouts. One address.</h1>
+      <p class="lead">The society's published plans, from the 920 sq ft low-rise C-Type to the 1,600 sq ft D-Type with a study. Open any plan for dimensions, towers, lifts and the flats-per-floor count.</p>
+      <div class="page-meta">
+        <span>920 – 1,600 sq ft</span>
+        <span>2 &amp; 3 bedroom</span>
+        <span>Seven plan types</span>
+        <span>Published dimensions</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="filters">
+        <div class="filter-group" role="group" aria-label="Filter layouts by bedrooms">
+          <span class="filter-label">Bedrooms</span>
+          <button class="chip" type="button" data-layout-bhk="all" aria-pressed="true">All layouts</button>
+          <button class="chip" type="button" data-layout-bhk="2" aria-pressed="false">2 BHK</button>
+          <button class="chip" type="button" data-layout-bhk="3" aria-pressed="false">3 BHK</button>
+        </div>
+        <div class="results-bar">
+          <p id="layout-count" aria-live="polite"></p>
+        </div>
+      </div>
+      <div class="layout-grid" id="layout-grid"></div>
+      <p class="grid-note">Plans and dimensions follow the society's published layout information. Furniture is not shown; internal walls and services should be verified on site.</p>
+    </div>
+  </section>
+
+  <section class="section section--paper2">
+    <div class="container">
+      <div class="sec-head reveal">
+        <div>
+          <p class="eyebrow">Compare</p>
+          <h2>All seven plans, side by side.</h2>
+        </div>
+        <div class="sec-aside">
+          <p>A quick comparison of area, bedrooms, bathrooms and the block type each plan sits in.</p>
+        </div>
+      </div>
+      <div class="table-wrap reveal">
+        <table>
+          <caption>Apartment types at East End Apartments</caption>
+          <thead>
+            <tr>
+              <th scope="col">Type</th>
+              <th scope="col">Area</th>
+              <th scope="col">Bedrooms</th>
+              <th scope="col">Toilets</th>
+              <th scope="col">Balconies</th>
+              <th scope="col">Storeys</th>
+              <th scope="col">Towers</th>
+              <th scope="col">Lifts</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>A Type</td>
+              <td>1,517 sq ft</td>
+              <td>3 BHK + study</td>
+              <td>3</td>
+              <td>1</td>
+              <td>8</td>
+              <td>9 &amp; 10</td>
+              <td>2 per tower</td>
+            </tr>
+            <tr>
+              <td>A-1 Type</td>
+              <td>1,157 sq ft</td>
+              <td>2 BHK</td>
+              <td>2</td>
+              <td>1</td>
+              <td>8</td>
+              <td>18 &amp; 19</td>
+              <td>2 per tower</td>
+            </tr>
+            <tr>
+              <td>B-1 Type</td>
+              <td>1,300 sq ft</td>
+              <td>3 BHK</td>
+              <td>2</td>
+              <td>1</td>
+              <td>9</td>
+              <td>14, 15, 16 &amp; 26</td>
+              <td>2 per tower</td>
+            </tr>
+            <tr>
+              <td>B Type · Front</td>
+              <td>1,252 sq ft</td>
+              <td>2 BHK + study</td>
+              <td>2</td>
+              <td>2</td>
+              <td>8</td>
+              <td>11 towers</td>
+              <td>2 per tower</td>
+            </tr>
+            <tr>
+              <td>B Type · Back</td>
+              <td>1,252 sq ft</td>
+              <td>2 BHK + study</td>
+              <td>2</td>
+              <td>2</td>
+              <td>8</td>
+              <td>11 towers</td>
+              <td>2 per tower</td>
+            </tr>
+            <tr>
+              <td>C Type</td>
+              <td>920 sq ft</td>
+              <td>2 BHK</td>
+              <td>2</td>
+              <td>1</td>
+              <td>4</td>
+              <td>348 flats</td>
+              <td>No lift</td>
+            </tr>
+            <tr>
+              <td>D Type</td>
+              <td>1,600 sq ft</td>
+              <td>3 BHK + study</td>
+              <td>3</td>
+              <td>1</td>
+              <td>8–9</td>
+              <td>10 towers</td>
+              <td>2 per tower</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta on-dark">
+    <div class="container cta-grid">
+      <div class="reveal">
+        <p class="eyebrow">Enquire</p>
+        <h2>Found the plan that fits?</h2>
+        <p class="lead">Tell the property desk which layout you are after. They will match it to current availability and arrange a site visit.</p>
+        <div class="cta-actions">
+          <a class="btn btn--brass" href="contact.html?interest=buy">Send an enquiry
+            <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn--outline" href="residences.html">See available homes</a>
+        </div>
+      </div>
+      <div class="cta-contact reveal">
+        <span class="k">Property desk</span>
+        <a href="tel:+919818337775">Deepa Gupta · +91 98183 37775</a>
+        <a href="tel:+919810298200">Umesh Gupta · +91 98102 98200</a>
+        <a href="https://wa.me/919818337775" target="_blank" rel="noopener">WhatsApp the desk</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html" aria-label="East End Apartments — home">
+          <span class="brand-mark" aria-hidden="true">EE</span>
+          <span class="brand-text">
+            <span class="brand-name">East End</span>
+            <span class="brand-sub">Apartments · Mayur Vihar</span>
+          </span>
+        </a>
+        <p>East End Apartments, Mayur Vihar Phase I (Extn.), opposite New Ashok Nagar Metro Station, Delhi 110096.</p>
+      </div>
+      <div>
+        <p class="footer-heading">Explore</p>
+        <ul class="footer-list">
+          <li><a href="society.html">The society</a></li>
+          <li><a href="residences.html">Residences</a></li>
+          <li><a href="layouts.html">Layouts</a></li>
+          <li><a href="amenities.html">Amenities</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Property desk</p>
+        <ul class="footer-list">
+          <li><a href="tel:+919818337775">Deepa Gupta · +91 98183 37775</a></li>
+          <li><a href="tel:+919810298200">Umesh Gupta · +91 98102 98200</a></li>
+          <li><a href="https://wa.me/919818337775" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li>2/102, East End Apartments</li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Visit</p>
+        <ul class="footer-list">
+          <li><a href="https://maps.google.com/?q=East+End+Apartments+Mayur+Vihar+Phase+I+Delhi" target="_blank" rel="noopener">Directions</a></li>
+          <li><a href="mailto:admin@eastendapartment.com">admin@eastendapartment.com</a></li>
+          <li><a href="tel:+919810298200">+91 98102 98200</a></li>
+          <li><a href="https://www.youtube.com/channel/UCiYw7GojMymDLBtzY43Pp6A/videos" target="_blank" rel="noopener">Society films on YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>This site is privately owned and used for commercial and social purposes. It has no legal or formal connection with the society's administration or management.</p>
+      <p>© East End Apartments</p>
+    </div>
+  </div>
+</footer>
+
+<dialog class="dialog" id="layout-dialog" aria-labelledby="layout-dialog-title">
+  <button class="dialog-close" type="button" data-close-dialog aria-label="Close layout details">
+    <svg class="od-icon od-icon--md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <div class="dialog-shell">
+    <div class="dialog-media">
+      <img data-ly-img src="assets/plans/a-type.jpg" alt="A Type floor plan" width="1026" height="1096">
+    </div>
+    <div class="dialog-body">
+      <p class="eyebrow">Floor plan</p>
+      <h2 id="layout-dialog-title" data-ly-name>A Type</h2>
+      <p class="lead" data-ly-summary></p>
+      <div class="spec-list" data-ly-specs></div>
+      <div class="dialog-actions">
+        <a class="btn btn--primary" data-ly-cta href="contact.html?interest=buy">Enquire about this layout
+          <svg class="od-icon od-icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn btn--outline" href="residences.html">See residences</a>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
+

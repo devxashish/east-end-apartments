@@ -1,0 +1,146 @@
+{
+  "note": "Photographs are the East End Apartments society's own images, published on the official site. They are used here to present the society in a redesign proposal; reuse rights should be confirmed with the site owner before any public launch.",
+  "societyImages": [
+    {
+      "file": "assets/society/multi-storey.jpg",
+      "subject": "Multi-storey (8/9 storey with lifts)",
+      "sourcePage": "https://eastendapartment.com/",
+      "originalUrl": "https://i0.wp.com/eastendapartment.com/wp-content/uploads/2017/12/22052012369.jpg?ssl=1",
+      "credit": "East End Apartments",
+      "license": "Society-supplied image; permission to be confirmed with the site owner"
+    },
+    {
+      "file": "assets/society/c-type-block.jpg",
+      "subject": "C-Type (4 storey without lifts, 2 BHK)",
+      "sourcePage": "https://eastendapartment.com/",
+      "originalUrl": "https://i0.wp.com/eastendapartment.com/wp-content/uploads/2017/12/22052012371.jpg?ssl=1",
+      "credit": "East End Apartments",
+      "license": "Society-supplied image; permission to be confirmed with the site owner"
+    },
+    {
+      "file": "assets/society/society-middle.jpg",
+      "subject": "Middle of the society",
+      "sourcePage": "https://eastendapartment.com/",
+      "originalUrl": "https://i0.wp.com/eastendapartment.com/wp-content/uploads/2017/12/22052012368.jpg?ssl=1",
+      "credit": "East End Apartments",
+      "license": "Society-supplied image; permission to be confirmed with the site owner"
+    },
+    {
+      "file": "assets/society/central-park.jpg",
+      "subject": "Central Park",
+      "sourcePage": "https://eastendapartment.com/",
+      "originalUrl": "https://i0.wp.com/eastendapartment.com/wp-content/uploads/2018/06/IMG_20180323_113140.jpg?ssl=1",
+      "credit": "East End Apartments",
+      "license": "Society-supplied image; permission to be confirmed with the site owner"
+    },
+    {
+      "file": "assets/society/c-park.jpg",
+      "subject": "C-Type Park 1",
+      "sourcePage": "https://eastendapartment.com/",
+      "originalUrl": "https://i0.wp.com/eastendapartment.com/wp-content/uploads/2018/06/IMG_20180323_112937.jpg?ssl=1",
+      "credit": "East End Apartments",
+      "license": "Society-supplied image; permission to be confirmed with the site owner"
+    },
+    {
+      "file": "assets/society/c-park-2.jpg",
+      "subject": "C-Type Park 2",
+      "sourcePage": "https://eastendapartment.com/",
+      "originalUrl": "https://i0.wp.com/eastendapartment.com/wp-content/uploads/2018/06/IMG_20180323_112946.jpg?ssl=1",
+      "credit": "East End Apartments",
+      "license": "Society-supplied image; permission to be confirmed with the site owner"
+    },
+    {
+      "file": "assets/society/temple.jpg",
+      "subject": "Temple 1",
+      "sourcePage": "https://eastendapartment.com/",
+      "originalUrl": "https://i0.wp.com/eastendapartment.com/wp-content/uploads/2018/06/IMG_20180323_112953.jpg?ssl=1",
+      "credit": "East End Apartments",
+      "license": "Society-supplied image; permission to be confirmed with the site owner"
+    },
+    {
+      "file": "assets/society/temple-old.jpg",
+      "subject": "Temple",
+      "sourcePage": "https://eastendapartment.com/",
+      "originalUrl": "https://i0.wp.com/eastendapartment.com/wp-content/uploads/2018/02/Temple.jpg?ssl=1",
+      "credit": "East End Apartments",
+      "license": "Society-supplied image; permission to be confirmed with the site owner"
+    },
+    {
+      "file": "assets/society/yoga.jpg",
+      "subject": "Park activities (yoga)",
+      "sourcePage": "https://eastendapartment.com/",
+      "originalUrl": "https://i0.wp.com/eastendapartment.com/wp-content/uploads/2018/02/Yoga.jpg?ssl=1",
+      "credit": "East End Apartments",
+      "license": "Society-supplied image; permission to be confirmed with the site owner"
+    },
+    {
+      "file": "assets/society/basement-parking.jpg",
+      "subject": "Basement parking",
+      "sourcePage": "https://eastendapartment.com/",
+      "originalUrl": "https://i0.wp.com/eastendapartment.com/wp-content/uploads/2018/02/Basement-Parking-1.jpg?ssl=1",
+      "credit": "East End Apartments",
+      "license": "Society-supplied image; permission to be confirmed with the site owner"
+    },
+    {
+      "file": "assets/society/mother-dairy.jpg",
+      "subject": "Mother Dairy 1",
+      "sourcePage": "https://eastendapartment.com/",
+      "originalUrl": "https://i0.wp.com/eastendapartment.com/wp-content/uploads/2020/05/WhatsApp-Image-2020-05-05-at-8.43.47-AM.jpeg?ssl=1",
+      "credit": "East End Apartments",
+      "license": "Society-supplied image; permission to be confirmed with the site owner"
+    },
+    {
+      "file": "assets/society/mother-dairy-2.jpg",
+      "subject": "Mother Dairy 2",
+      "sourcePage": "https://eastendapartment.com/",
+      "originalUrl": "https://i0.wp.com/eastendapartment.com/wp-content/uploads/2018/06/IMG_20171025_140425.jpg?ssl=1",
+      "credit": "East End Apartments",
+      "license": "Society-supplied image; permission to be confirmed with the site owner"
+    },
+    {
+      "file": "assets/society/gate-view.jpg",
+      "subject": "Gate view",
+      "sourcePage": "https://eastendapartment.com/",
+      "originalUrl": "https://i0.wp.com/eastendapartment.com/wp-content/uploads/2017/12/Eastend-Face.jpg?ssl=1",
+      "credit": "East End Apartments",
+      "license": "Society-supplied image; permission to be confirmed with the site owner"
+    }
+  ],
+  "floorPlans": [
+    {
+      "files": [
+        "assets/plans/a-type.jpg",
+        "assets/plans/a1-type.jpg",
+        "assets/plans/b1-type.jpg",
+        "assets/plans/b-front.jpg",
+        "assets/plans/b-back.jpg",
+        "assets/plans/c-type.jpg",
+        "assets/plans/d-type.jpg",
+        "assets/plans/society-layout.jpg"
+      ],
+      "sourcePage": "https://eastendapartment.com/layouts",
+      "credit": "East End Apartments published layouts",
+      "license": "Society-published plans; dimensions to be verified on site"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Fraunces",
+      "file": "assets/fonts/fraunces-var.woff2",
+      "license": "SIL Open Font License 1.1",
+      "source": "Google Fonts"
+    },
+    {
+      "family": "Fraunces Italic",
+      "file": "assets/fonts/fraunces-italic-var.woff2",
+      "license": "SIL Open Font License 1.1",
+      "source": "Google Fonts"
+    },
+    {
+      "family": "Manrope",
+      "file": "assets/fonts/manrope-var.woff2",
+      "license": "SIL Open Font License 1.1",
+      "source": "Google Fonts"
+    }
+  ]
+}
